@@ -64,7 +64,7 @@ const handleScrollTo = (target: string) => {
         </ul>
       </nav>
       <p class="copyright">
-        © Copyright 2022 - All rights reserved, Anjishnu Ganguly
+        © Copyright 2024 - All rights reserved, Anjishnu Ganguly
       </p>
     </footer>
   </NuxtLayout>
