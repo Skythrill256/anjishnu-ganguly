@@ -12,6 +12,13 @@ const handleScrollTo = (target: string) => {
 
   Emitter.emit('route-change', `/${target}`);
 };
+
+const downloadResume = () =>{
+  const link = document.createElement('a');
+  link.href = "/MyResume.pdf"
+  link.download = "AnjishnuGangulyResume.pdf"
+  link.click()
+}
 </script>
 
 <template>
@@ -36,7 +43,7 @@ const handleScrollTo = (target: string) => {
           <button @click="handleScrollTo('#contact')">Contact</button>
         </li>
         <li>
-          <button @click="handleScrollTo('#footer')">Resume</button>
+          <button @click="downloadResume()">Resume</button>
         </li>
       </ul>
     </nav>
