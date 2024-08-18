@@ -1,6 +1,6 @@
 ---
 title: link-byte
-description: (Development, Webdesign) Shorten your own custom url in just one click
+description: (Development) Shorten your own custom url in just one click
 image: link-byte-landing2.jpg
 color: 6040FF
 order: 1
